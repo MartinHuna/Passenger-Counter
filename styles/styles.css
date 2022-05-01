@@ -12,7 +12,7 @@ h1 {
     font-family: arial;
     text-align: center;
     color: rgb(21, 212, 37);
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 h2 {
@@ -29,12 +29,18 @@ button {
     display: block;
     color: white;
     font-weight: bold;
-    width: 200px;
+    width: 240px;
+    height: 50px;
     margin-bottom: 5px;
     border-radius: 5px;
 }
 
 #increment-btn {
     background: darkred;
+    text-align: center;
+}
+
+#save-btn {
+    background: darkgreen;
     text-align: center;
 }
