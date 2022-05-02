@@ -1,17 +1,16 @@
-//let countEl = document.getElementById("count-el")
-//let count = 0
+let countEl = document.getElementById("count-el")
+let count = 0
 
-//function increment() {
-//    count = count + 1
-//    countEl.innerText = count
-//}
+function increment() {
+    count += 1
+    countEl.innerText = count
+}
+let saveEl = document.getElementById("save-el")
 
-//function save() {
-//    console.log(count)
-//}
+function save() {
+    let totalVisits = count + " - "
+    saveEl.innerText += totalVisits
 
-let name = "Martin"
-let greeting = "Hi, my name is "
-let myGreeting = greeting + name
+    console.log(count)
+}
 
-console.log(myGreeting)
