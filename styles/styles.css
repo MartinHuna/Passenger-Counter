@@ -44,3 +44,10 @@ button {
     background: darkgreen;
     text-align: center;
 }
+
+p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 1000;
+    color: rgb(21, 212, 37); 
+}
